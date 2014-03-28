@@ -5,10 +5,10 @@ class CreatePlanets < ActiveRecord::Migration
       t.string :name
       t.string :macaddress
       t.integer :metal
-      t.int :crystal
-      t.int :solarpowerplant
-      t.int :metalmine
-      t.int :crystalmine
+      t.integer :crystal
+      t.integer :solarpowerplant
+      t.integer :metalmine
+      t.integer :crystalmine
 
       t.timestamps
     end
