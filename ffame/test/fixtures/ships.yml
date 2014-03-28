@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 
+  shiptype: 
+  name: MyString
+  macaddress: MyString
+  metal: 1
+  crystal: 1
+  hp: 1
+
+two:
+  user_id: 
+  shiptype: 
+  name: MyString
+  macaddress: MyString
+  metal: 1
+  crystal: 1
+  hp: 1
