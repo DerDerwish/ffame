@@ -1,8 +1,7 @@
 class CreateShips < ActiveRecord::Migration
   def change
     create_table :ships do |t|
-      t.references :user, index: true
-      t.reference :shiptype
+      t.references :user, :shiptype, index: true
       t.string :name
       t.string :macaddress
       t.integer :metal
