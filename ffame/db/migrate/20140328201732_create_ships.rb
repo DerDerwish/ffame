@@ -7,6 +7,7 @@ class CreateShips < ActiveRecord::Migration
       t.integer :metal
       t.integer :crystal
       t.integer :hp
+      t.integer :location
 
       t.timestamps
     end
