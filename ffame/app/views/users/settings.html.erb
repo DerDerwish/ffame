@@ -1,0 +1,19 @@
+<h1>Dein Benutzerkonto</h1>
+<table>
+  <tr>
+    <th>Nickname:</th>
+    <td><%= @me.name %></td>
+  </tr
+  <tr>
+    <th>password:</th>
+    <td><span class="coming_later">Passwort aendern</span</td>
+  </tr>
+  <tr>
+    <th>email:</th>
+    <td><%= @me.email %></td>
+  </tr>
+  <tr>
+    <th>Verrifizkation:</th>
+    <td><%= me.verified?'abgeschlossen':'noch notwendig' %></td>
+  </tr>
+</table>
